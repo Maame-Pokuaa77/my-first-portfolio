@@ -428,14 +428,14 @@ footer p {
     text-align: center;
 }
 
-/* Additional Colour Changes */
+/* Additional Colour Changes 
 body {
-  background-color: #FFF8F0; /* light neutral base */
+  background-color: #FFF8F0; /* light neutral base 
 }
 
 
 p, h1, h2, h3 {
-  color: #2E2E2E; /* readable dark color */
+  color: #2E2E2E; /* readable dark color 
 }
 
 .btn-color-1 {
@@ -473,4 +473,115 @@ p, h1, h2, h3 {
   filter: brightness(1.2);
   transform: scale(1.05);
 }
+*/
+/*
+body {
+  background-color: #F8F9FA;
+  color: #2D2D2D;
+}
 
+
+h1, h2, h3 {
+  color: #A259FF;
+}
+
+.btn-color-1 {
+  background-color: #A259FF;
+  color: white;
+  border: none;
+}
+
+.btn-color-1:hover {
+  background-color: #7A2DF0;
+}
+
+.btn-color-2 {
+  background-color: transparent;
+  border: 2px solid #A259FF;
+  color: #A259FF;
+}
+
+.btn-color-2:hover {
+  background-color: #A259FF;
+  color: white;
+}
+
+.details-container {
+  background-color: #FDCB6E;
+  color: #2D2D2D;
+  border: 2px solid #A259FF;
+}
+
+a:hover {
+  color: #00BFFF;
+  text-decoration: underline;
+}
+*/
+
+body {
+  background-color:  #F3E8FF;   
+  color: #000000;
+}
+
+
+.btn-color-1 {
+  background-color: #FF2ECC;
+  color: #FFFFFF;
+  border: none;
+}
+
+.btn-color-1:hover {
+  background-color: #00FFFF;
+  color: #000000;
+}
+
+.btn-color-2 {
+  background-color: transparent;
+  border: 2px solid #FFEA00;
+  color: #FFEA00;
+}
+
+.btn-color-2:hover {
+  background-color: #FFEA00;
+  color: #000000;
+}
+
+h1, h2, h3 {
+  color: #FF2ECC;
+}
+
+.details-container {
+  background-color: #FFEA00;
+  color: #000000;
+  border: 2px solid #FF2ECC;
+}
+
+a:hover {
+  color: #39FF14;
+  text-decoration: underline;
+}
+
+.glow {
+  text-shadow: 0 0 5px #FF2ECC, 0 0 10px #FF2ECC, 0 0 20px #FF2ECC;
+}
+
+
+
+.project-btn {
+  color: #000000; /* black text */
+  background-color: #FFEA00; /* bright yellow */
+  border: 2px solid #FFEA00;
+}
+
+.project-btn:hover {
+  background-color: #FFD700; /* deeper yellow */
+  color: #000000;
+}
+
+
+.profile-pic {
+  width: 400px;         /* Or any desired size */
+  height: 400px;
+  object-fit: cover;    /* Makes sure the image fills the area */
+  border-radius: 50%;   /* Makes the image perfectly round */
+}
